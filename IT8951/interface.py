@@ -15,7 +15,7 @@ class EPD:
          device to device.
     '''
 
-    def __init__(self, vcom=-1.5):
+    def __init__(self, vcom=-2.12):
 
         self.spi = SPI()
 
